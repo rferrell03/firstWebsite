@@ -1,7 +1,6 @@
 function colorButton(){
     var randomColor = "";
     randomColor = getRandomColor();
-    document.getElementsByClassName("column")
 }
 
 function getRandomColor() 

@@ -2,14 +2,15 @@
 <html>
     <head>
         <link rel = "stylesheet" href="style.css">
+        <script src = "script.js"></script>
     </head>
     <body>
         <nav>
             <ul id = navbarFrame>
-                <li class = navbarIcons><a href = "https://www.youtube.com" target ="_blank"><picture><img src = "youtube.jpg"></picture></a></li>
-                <li class = navbarIcons><a href = "https://www.twitter.com" target ="_blank"><picture><img src = "twitter.png"></picture></a></li>
-                <li class = navbarIcons><a href = "https://mylsu.apps.lsu.edu/" target ="_blank"><picture><img src = "lsu.png" style = "width:160px; height: 50px "></picture></a></li>
-                <li class = navbarIcons><a href = "https://mail.google.com" target = "_blank"><picture><img src = "gmail.png"></picture></a></li>
+                <li class = navbarIcons><a href = "https://www.youtube.com" target ="_blank"><picture><img class = "icon" src = "icons/youtube.jpg"></picture></a></li>
+                <li class = navbarIcons><a href = "https://www.twitter.com" target ="_blank"><picture><img class = "icon" src = "icons/twitter.png"></picture></a></li>
+                <li class = navbarIcons><a href = "https://mylsu.apps.lsu.edu/" target ="_blank"><picture><img class = "icon" src = "icons/lsu.png" style = "width:160px; height: 50px "></picture></a></li>
+                <li class = navbarIcons><a href = "https://mail.google.com" target = "_blank"><picture><img class = "icon" src = "icons/gmail.png"></picture></a></li>
             </ul>
         </nav>
         <header>Welcome to Robert's Website</header>
@@ -19,7 +20,11 @@
                 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
                 </script>
             </div>
-            <h1> lorem ipsum etc etc blah blah blah</h1>
+            
+            <picture><img  id = "catPictures" src = "catPics/cat1.jpg"></picture>
+            <br>
+            <button id = "catButton" onclick = "changeCat()">Cat button!</button>
+            <h1 id = "lorem"> lorem ipsum etc etc blah blah blah</h1>
         </div>
         <div class = column style = "background-color: rgb(145, 135, 145);">
             <h1>wow!</h1>

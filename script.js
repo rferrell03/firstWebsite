@@ -14,7 +14,7 @@ function getRandomColor()
 }
 
 function changeCat(){
-    const catPics = ["catPics/cat1.jpg","catPics/cat2.jpg","catPics/cat3.jpg","catPics/cat4.jpg"];
+    const catPics = ["catPics/cat1.jpg","catPics/cat2.jpg","catPics/cat3.jpg","catPics/cat4.jpg","catPics/cat5.jpg","catPics/cat6.jpg","catPics/cat7.jpg","catPics/cat8.jpg","catPics/cat9.jpg","catPics/cat10.jpg"];
     var i = getRandomNumber(catPics.length);
     document.getElementById("catPictures").src = catPics[i];
     console.log(i);

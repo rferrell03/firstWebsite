@@ -21,9 +21,25 @@ function changeCat(){
     
 }
 
+function changeDog(){
+    var filePath = "dogPics/";
+    const catPics = [filePath + "dog1.jpg", filePath + "dog2.jpg",filePath + "dog3.jpg", filePath + "dog4.jpg",filePath + "dog5.jpg", filePath + "dog6.jpg",];
+    var i = getRandomNumber(catPics.length);
+    document.getElementById("dogPictures").src = catPics[i];
+    console.log(i);
+}
+
 function getRandomNumber(upperBound){
     var randomNum;
     randomNum = Math.floor(Math.random() * upperBound);
     return randomNum;
 }
+
+function changeColor(){
+    document.body.style.backgroundColor = getRandomColor();
+    
+
+}
+
+
 function doNothing(){}

@@ -42,3 +42,15 @@ function changeColor(){
 }
 
 function doNothing(){}
+
+
+
+
+
+
+boolean (result) = true
+if(true){
+    //some hashmap shit
+}else{
+    result = false;
+}
